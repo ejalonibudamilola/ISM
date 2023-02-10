@@ -36,77 +36,87 @@
           <div class="card-body p-4 p-md-5">
             <h3 class="mb-4 pb-2 pb-md-0 mb-md-5 px-md-2 text-center">Student Registration Form</h3>
 
-            <form class="px-md-2">
+            <form id="myForm" class="px-md-2">
 
               <div class="row">
                 <div class="col-md-6 mb-4">
-                  <input type="text" id="form3Example1q" class="form-control" />
-                  <label class="form-label" for="form3Example1q">Firstname</label>
+                  <input type="text" id="firstname" name="firstname" class="form-control" />
+                  <label class="form-label" for="form3Example1q">Firstname</label><br/>
+                  <span id="cfirstname" class="error" font-weight-bold></span>
                 </div>
 
                 <div class="col-md-6 mb-4">
-                  <input type="text" id="form3Example1q" class="form-control" />
-                  <label class="form-label" for="form3Example1q">Lastname</label>
+                  <input type="text" id="lastname" name="lastname" class="form-control" />
+                  <label class="form-label" for="form3Example1q">Lastname</label><br/>
+                  <span id="clastname" class="error" font-weight-bold></span>
                 </div>
               </div>
 
               <div class="row">
                 <div class="col-md-6 mb-4">
-                  <input type="email" id="form3Example1q" class="form-control" />
-                  <label class="form-label" for="form3Example1q">Email</label>
+                  <input type="email" id="email" name="email" class="form-control" />
+                  <label class="form-label" for="form3Example1q">Email</label><br/>
+                  <span id="cemail" class="error" font-weight-bold></span>
                 </div>
 
                 <div class="col-md-6 mb-4">
-                  <input type="text" id="form3Example1q" class="form-control" />
-                  <label class="form-label" for="form3Example1q">Phone Number</label>
+                  <input type="text" id="phone" name="phone_number" class="form-control" />
+                  <label class="form-label" for="form3Example1q">Phone Number</label><br/>
+                  <span id="cphone" class="error" font-weight-bold></span>
                 </div>
               </div>
 
               <div class="form-outline mb-4">
-                <input type="text" id="form3Example1q" class="form-control" />
-                <label class="form-label" for="form3Example1q">Contact Address</label>
+                <input type="text" id="address" name="address" class="form-control" />
+                <label class="form-label" for="form3Example1q">Contact Address</label><br/>
+                <span id="caddress" class="error" font-weight-bold></span>
               </div>
 
               <div class="row">                
                 <div class="col-md-6 mb-4">
-                  <select class="select form-control">
+                  <select id="gender" name="gender" class="select form-control">
                     <option value="1">Select</option>
-                    <option value="2">Female</option>
-                    <option value="3">Male</option>
+                    <option value="Female">Female</option>
+                    <option value="Male">Male</option>
                   </select>
-                  <label class="form-label" for="form3Example1q">Gender</label>
+                  <label class="form-label" for="form3Example1q">Gender</label><br/>
+                  <span id="cgender" class="error" font-weight-bold></span>
                 </div>
                 <div class="col-md-6 mb-4">
-                  <select class="select form-control">
+                  <select id="minister" name="are_you_a_minister" class="select form-control">
                     <option value="1">Select</option>
-                    <option value="2">Yes</option>
-                    <option value="3">No</option>
+                    <option value="Yes">Yes</option>
+                    <option value="No">No</option>
                   </select>
-                  <label class="form-label" for="form3Example1q">Are you a Minister</label>
+                  <label class="form-label" for="form3Example1q">Are you a Minister</label><br/>
+                  <span id="cminister" class="error" font-weight-bold></span>
                 </div>
               </div> 
 
               <div class="row">
                 <div class="col-md-6 mb-4">
-                  <input type="text" id="form3Example1q" class="form-control" />
-                  <label class="form-label" for="form3Example1q">Name of Ministry</label>
+                  <input type="text" id="ministryname" name="name_of_ministry" class="form-control" />
+                  <label class="form-label" for="form3Example1q">Name of Ministry</label><br/>
+                  <span id="cministryname" class="error" font-weight-bold></span>
                 </div>
 
                 <div class="col-md-6 mb-4">
-                  <input type="text" id="form3Example1q" class="form-control" />
-                  <label class="form-label" for="form3Example1q">Position in Ministry</label>
+                  <input type="text" id="position" name="position_in_ministry" class="form-control" />
+                  <label class="form-label" for="form3Example1q">Position in Ministry</label><br/>
+                  <span id="cposition" class="error" font-weight-bold></span>
                 </div>
               </div>
 
               <div class="form-outline mb-4">
-                <textarea class="form-control" name="message" rows="6" placeholder="Message"></textarea>
-                <label class="form-label" for="form3Example1q">What do you look forward to as your experience</label>
+                <textarea class="form-control"  id="message" name="message" rows="6" placeholder="Message"></textarea>
+                <label class="form-label" for="form3Example1q">What do you look forward to as your experience</label><br/>
+                <span id="cmessage" class="error" font-weight-bold></span>
               </div>
 
               <div class="container">
                 <div class="row">
                   <div class="col text-center">
-                    <button  type="submit" class="btn btn-success btn-lg mb-1 register-btn">Submit</button>
+                    <button id="register" class="btn btn-success btn-lg mb-1 register-btn">Submit</button>
                   </div>
                 </div>
               </div>
@@ -118,6 +128,152 @@
     </div>
   </div>
 </section>
+
+
+<!-- ======= Modal ======= -->
+<div class="modal fade" id="successModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+        Your Message has been successfully sent
+      </div>
+      <div class="modal-footer">
+        <button id="successBtn" style="background-color: #47b2e4; border-color: #47b2e4" type="button" class="btn btn-primary" data-bs-dismiss="modal">Ok</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="failureModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+        Opps! your message wasn't successfuly sent, please try again.
+      </div>
+      <div class="modal-footer">
+        <button type="button" style="text-align: center;" class="btn btn-danger" data-bs-dismiss="modal">Try Again</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End Modal -->
+
+
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+<script>
+  function ValidateForm(){
+      console.log("Validating");     
+      var lastname = $("#lastname").val();   
+      var firstname = $("#firstname").val();  
+      var email = $("#email").val(); 
+      var phone = $("#phone").val();
+      var address = $("#address").val();
+      var gender = $("#gender").val();
+      var minister = $("#minister").val();
+      var ministryname = $("#ministryname").val();
+      var position = $("#position").val();
+      var message = $("#message").val();
+      var letter = /^[a-zA-Z]+$/;
+      var email = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+      var valid = true;
+      removeMessage();
+      
+      if(!letter.test(lastname)){
+              event.preventDefault();
+              document.getElementById("clastname").innerHTML="Input a valid Lastname";
+              valid=false;
+      }
+      
+      if(!letter.test(firstname)){
+              event.preventDefault();
+              document.getElementById("cfirstname").innerHTML="Input a valid Firstname";
+              valid=false;
+      }
+      
+      if(!email.test(email)){
+              event.preventDefault();
+              document.getElementById("cemail").innerHTML="Input a valid Email Address";
+              valid=false;
+      }
+
+      if(phone == ""){
+              event.preventDefault();
+              document.getElementById("cphone").innerHTML="Input a valid Phone Number";
+              valid=false;
+      }
+
+      if(address == ""){
+              event.preventDefault();
+              document.getElementById("caddress").innerHTML="This field can't be empty";
+              valid=false;
+      }
+
+      if(!letter.test(gender)){
+              event.preventDefault();
+              document.getElementById("cgender").innerHTML="Select your gender";
+              valid=false;
+      }
+      
+      if(!letter.test(minister)){
+              event.preventDefault();
+              document.getElementById("cminister").innerHTML="Kindly Select";
+              valid=false;
+      }
+
+      if(ministryname == ""){
+              event.preventDefault();
+              document.getElementById("cministryname").innerHTML="This field can't be empty";
+              valid=false;
+      } 
+
+      if(position == ""){
+              event.preventDefault();
+              document.getElementById("cposition").innerHTML="This field can't be empty";
+              valid=false;
+      } 
+
+      if(message == ""){
+              event.preventDefault();
+              document.getElementById("cmessage").innerHTML="This field can't be empty";
+              valid=false;
+      } 
+      return valid;        
+  }
+
+  function removeMessage(){
+      var eremove = document.querySelectorAll(".error");
+      [].forEach.call(eremove, function(el){
+          el.innerHTML="";
+      });
+  }
+
+  $("#register").click(function(e){
+    e.preventDefault();
+    console.log("I got here");
+    var valid = ValidateForm();
+    if (valid===true){    
+      $.ajax({
+        url:'https://api.apispreadsheets.com/data/BbVLiVgfP9Pbb9sS/',
+        type:'post',
+        data:$("#myForm").serializeArray(),
+        success: function(){
+          $('#successModal').modal('show');       
+        },
+        error: function(){
+          $('#failureModal').modal('show'); 
+        }
+      });   
+    } 
+  });
+
+  $('#successBtn').click(function(e){
+    location.reload();
+  });
+
+  </script>
+
 </body>
 
 </html>
