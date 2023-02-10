@@ -173,7 +173,7 @@
       console.log("Validating");     
       var lastname = $("#lastname").val();   
       var firstname = $("#firstname").val();  
-      var email = $("#email").val(); 
+      var visitoremail = $("#email").val(); 
       var phone = $("#phone").val();
       var address = $("#address").val();
       var gender = $("#gender").val();
@@ -185,6 +185,7 @@
       var email = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
       var valid = true;
       removeMessage();
+      console.log("Email is "+email);
       
       if(!letter.test(lastname)){
               event.preventDefault();
@@ -198,7 +199,7 @@
               valid=false;
       }
       
-      if(!email.test(email)){
+      if(!email.test(visitoremail)){
               event.preventDefault();
               document.getElementById("cemail").innerHTML="Input a valid Email Address";
               valid=false;
