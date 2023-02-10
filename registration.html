@@ -257,9 +257,6 @@
 
   $("#register").click(function(e){
     e.preventDefault();
-    $('#successModal').modal('show');       
-
-    console.log("I got here");
     var valid = ValidateForm();
     if (valid===true){    
       $.ajax({
