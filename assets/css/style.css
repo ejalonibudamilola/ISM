@@ -348,7 +348,7 @@ section {
   display: none;
   line-height: 0;
   transition: 0.5s;
-  margin-left: 10em;
+  margin-left: 8em;
 }
 
 .mobile-nav-toggle.bi-x {
@@ -535,7 +535,7 @@ section {
   }
 
   .hero h2 {
-    font-size: 24px;
+    font-size: 14px;
   }
 
   .hero .hero-img img {
