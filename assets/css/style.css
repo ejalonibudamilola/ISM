@@ -2477,6 +2477,12 @@ section {
   border-color: #c28e27;
 }
 
+.note p{
+  font-weight: bold;
+  font-style: italic;
+  padding-bottom: 1em;
+}
+
 /* @media (min-width: 1025px) {
   .h-custom {
   height: 100vh !important;
