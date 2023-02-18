@@ -667,10 +667,9 @@
             <p>You can connect to us via any of our social media handles.</p>
             <div class="social-links mt-3">
               <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-              <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-              <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+              <a href="https://web.facebook.com/groups/954024105040301" class="facebook"><i class="bi bi-facebook"></i></a>
+              <a href="https://www.instagram.com/flame_global/" class="instagram"><i class="bi bi-instagram"></i></a>
               <a href="#" class="google-plus"><i class="bi bi-telegram"></i></a>
-              <a href="#" class="linkedin"><i class="bi bi-youtube"></i></a>
             </div>
           </div>
 
