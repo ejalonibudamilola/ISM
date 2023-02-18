@@ -18,7 +18,6 @@
   <link href="assets/vendor/bootstrap/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
   <link href="assets/css/style.css" rel="stylesheet">
@@ -41,7 +40,7 @@
           <li><a class="nav-link scrollto" href="#speakers">Speakers</a></li>
           <li><a class="nav-link scrollto" href="#portfolio">Gallery</a></li>
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-          <li class="reg-link"><a class="getstarted scrollto" target="_blank" href="registration.php">Register</a></li>
+          <li class="reg-link"><a class="getstarted scrollto" target="_blank" href="registration.html">Register</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -656,7 +655,7 @@
             <h4>Other Links</h4>
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="#contact">Contact</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="registration.php">Register</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="registration.html">Register</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Principal Address</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#counts">Metric Data</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Year Book</a></li>
@@ -690,6 +689,34 @@
 
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
   
+  <!-- ======= Modal ======= -->
+  <div class="modal fade" id="successModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-body">
+          Your Message has been successfully sent
+        </div>
+        <div class="modal-footer">
+          <button id="successBtn" style="background-color: #c28e27; border-color: #c28e27" type="button" class="btn btn-primary" data-bs-dismiss="modal">Ok</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="failureModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-body">
+          Opps! your message wasn't successfuly sent, please try again.
+        </div>
+        <div class="modal-footer">
+          <button type="button" style="text-align: center;" class="btn btn-danger" data-bs-dismiss="modal">Try Again</button>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- End Modal -->
+
   <script src="assets/js/jquery.min.js"></script>
   <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
@@ -701,7 +728,6 @@
 
   <script type="text/javascript">
     function ValidateForm(){
-      console.log("Validating");     
       var lastname = $("#lastname").val();   
       var firstname = $("#firstname").val();  
       var visitorMail = $("#email").val(); 
