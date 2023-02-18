@@ -41,7 +41,7 @@
           <li><a class="nav-link scrollto" href="#speakers">Speakers</a></li>
           <li><a class="nav-link scrollto" href="#portfolio">Gallery</a></li>
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-          <li class="reg-link"><a class="getstarted scrollto" target="_blank" href="registration.html">Register</a></li>
+          <li class="reg-link"><a class="getstarted scrollto" target="_blank" href="registration.php">Register</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -656,7 +656,7 @@
             <h4>Other Links</h4>
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="#contact">Contact</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="registration.html">Register</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="registration.php">Register</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Principal Address</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#counts">Metric Data</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Year Book</a></li>
