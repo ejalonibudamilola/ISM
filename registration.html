@@ -193,6 +193,9 @@
   </div>
 </section>
 
+  <!-- ======= Spinner ======= -->
+
+  <div class="spin"></div>
 
 <!-- ======= Modal ======= -->
 <div class="modal fade" id="successModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" data-bs-backdrop="static" data-bs-keyboard="false">
@@ -396,11 +399,13 @@
     e.preventDefault();  
     var valid = ValidateForm();
     if (valid===true){    
+      $(".spin").show(); 
       $.ajax({
         url:'https://api.apispreadsheets.com/data/BbVLiVgfP9Pbb9sS/',
         type:'post',
         data:$("#myForm").serializeArray(),
         success: function(){
+          $(".spin").hide(); 
           $('#successModal').modal('show');       
         },
         error: function(){
