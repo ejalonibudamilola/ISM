@@ -261,7 +261,7 @@ section {
 .navbar .getstarted:focus {
   background: #c28e27;
   padding: 8px 20px;
-  margin-left: 80px;
+  margin-left: 250px;
   border-radius: 4px;
   color: #fff;
 }

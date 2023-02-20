@@ -37,7 +37,7 @@
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
           <li><a class="nav-link scrollto" href="#about">About</a></li>
-          <li><a class="nav-link scrollto" href="#speakers">Speakers</a></li>
+          <!-- <li><a class="nav-link scrollto" href="#speakers">Speakers</a></li> -->
           <li><a class="nav-link scrollto" href="#portfolio">Gallery</a></li>
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
           <li class="reg-link"><a class="getstarted scrollto" target="_blank" href="registration.php">Register</a></li>
@@ -271,17 +271,7 @@
                 </div>
               </div>
             </div>
-          </div>
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="https://res.cloudinary.com/dlclg1j73/image/upload/v1676479138/ISM/2022/ac849e663f327fabac849e663f327fabISM230422-89_btlrcy.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <div class="portfolio-links">
-                  <a href="https://res.cloudinary.com/dlclg1j73/image/upload/v1676479138/ISM/2022/ac849e663f327fabac849e663f327fabISM230422-89_btlrcy.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="2022"><i class="bi bi-plus"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
+          </div>         
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
               <img src="https://res.cloudinary.com/dlclg1j73/image/upload/v1676479138/ISM/2022/93c3a823f00f2a5993c3a823f00f2a59ISM2022-15_ulhld6.jpg" class="img-fluid" alt="">
@@ -322,7 +312,163 @@
               </div>
             </div>
           </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="https://res.cloudinary.com/dlclg1j73/image/upload/v1676916952/ISM/New/ae82050c2f9c5cb5ae82050c2f9c5cb5ISM_3B22-05-22-14_ry1uwp.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <div class="portfolio-links">
+                  <a href="https://res.cloudinary.com/dlclg1j73/image/upload/v1676916952/ISM/New/ae82050c2f9c5cb5ae82050c2f9c5cb5ISM_3B22-05-22-14_ry1uwp.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="2022"><i class="bi bi-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="https://res.cloudinary.com/dlclg1j73/image/upload/v1676916952/ISM/New/f81bbb57a8ead3b6f81bbb57a8ead3b6ISM230422-132_ymitwr.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <div class="portfolio-links">
+                  <a href="https://res.cloudinary.com/dlclg1j73/image/upload/v1676916952/ISM/New/f81bbb57a8ead3b6f81bbb57a8ead3b6ISM230422-132_ymitwr.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="2022"><i class="bi bi-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="https://res.cloudinary.com/dlclg1j73/image/upload/v1676916952/ISM/New/eadddcd95f58ee0deadddcd95f58ee0dISM_3B22-05-22-29_r3phqk.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <div class="portfolio-links">
+                  <a href="https://res.cloudinary.com/dlclg1j73/image/upload/v1676916952/ISM/New/eadddcd95f58ee0deadddcd95f58ee0dISM_3B22-05-22-29_r3phqk.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="2022"><i class="bi bi-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="https://res.cloudinary.com/dlclg1j73/image/upload/v1676916952/ISM/New/f8e80c6ece601d0a4abd9ce94f1a51beISM_3B22-05-22-11_yhsun3.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <div class="portfolio-links">
+                  <a href="https://res.cloudinary.com/dlclg1j73/image/upload/v1676916952/ISM/New/f8e80c6ece601d0a4abd9ce94f1a51beISM_3B22-05-22-11_yhsun3.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="2022"><i class="bi bi-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        
 
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="https://res.cloudinary.com/dlclg1j73/image/upload/v1676916954/ISM/New/9e4aedd55d4126ed9e4aedd55d4126edISM_3B22-05-22-43_svcx9k.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <div class="portfolio-links">
+                  <a href="https://res.cloudinary.com/dlclg1j73/image/upload/v1676916954/ISM/New/9e4aedd55d4126ed9e4aedd55d4126edISM_3B22-05-22-43_svcx9k.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="2022"><i class="bi bi-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="https://res.cloudinary.com/dlclg1j73/image/upload/v1676916955/ISM/New/0ec5909ef2f2fd300ec5909ef2f2fd30ISM_3B22-05-22-42_oqhj5t.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <div class="portfolio-links">
+                  <a href="https://res.cloudinary.com/dlclg1j73/image/upload/v1676916955/ISM/New/0ec5909ef2f2fd300ec5909ef2f2fd30ISM_3B22-05-22-42_oqhj5t.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="2022"><i class="bi bi-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="https://res.cloudinary.com/dlclg1j73/image/upload/v1676916955/ISM/New/5c3152b38b2f9e725c3152b38b2f9e72ISM230422-121_zploe0.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <div class="portfolio-links">
+                  <a href="https://res.cloudinary.com/dlclg1j73/image/upload/v1676916955/ISM/New/5c3152b38b2f9e725c3152b38b2f9e72ISM230422-121_zploe0.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="2022"><i class="bi bi-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="https://res.cloudinary.com/dlclg1j73/image/upload/v1676916954/ISM/New/8b001807a2df956d8b001807a2df956dISM_3B22-05-22-44_kwgr2w.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <div class="portfolio-links">
+                  <a href="https://res.cloudinary.com/dlclg1j73/image/upload/v1676916954/ISM/New/8b001807a2df956d8b001807a2df956dISM_3B22-05-22-44_kwgr2w.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="2022"><i class="bi bi-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="https://res.cloudinary.com/dlclg1j73/image/upload/v1676916952/ISM/New/d5c1deb432cb3cefd5c1deb432cb3cefISM-6_m4svvo.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <div class="portfolio-links">
+                  <a href="https://res.cloudinary.com/dlclg1j73/image/upload/v1676916952/ISM/New/d5c1deb432cb3cefd5c1deb432cb3cefISM-6_m4svvo.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="2021"><i class="bi bi-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="https://res.cloudinary.com/dlclg1j73/image/upload/v1676916952/ISM/New/9367c2b874bfa0599367c2b874bfa059ISM230422-98_r58vec.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <div class="portfolio-links">
+                  <a href="https://res.cloudinary.com/dlclg1j73/image/upload/v1676916952/ISM/New/9367c2b874bfa0599367c2b874bfa059ISM230422-98_r58vec.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="2021"><i class="bi bi-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="https://res.cloudinary.com/dlclg1j73/image/upload/v1676916953/ISM/New/3873c31896d781c13873c31896d781c1ISM230422-140_le5q0p.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <div class="portfolio-links">
+                  <a href="https://res.cloudinary.com/dlclg1j73/image/upload/v1676916953/ISM/New/3873c31896d781c13873c31896d781c1ISM230422-140_le5q0p.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="2021"><i class="bi bi-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>         
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="https://res.cloudinary.com/dlclg1j73/image/upload/v1676916953/ISM/New/881b1e28168982ab881b1e28168982abISM230422-126_achdoz.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <div class="portfolio-links">
+                  <a href="https://res.cloudinary.com/dlclg1j73/image/upload/v1676916953/ISM/New/881b1e28168982ab881b1e28168982abISM230422-126_achdoz.jpg data-gallery="portfolioGallery" class="portfokio-lightbox" title="2021"><i class="bi bi-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="https://res.cloudinary.com/dlclg1j73/image/upload/v1676916954/ISM/New/17e97c649e81f98117e97c649e81f981ISM_3B22-05-22-25_ei75sr.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <div class="portfolio-links">
+                  <a href="https://res.cloudinary.com/dlclg1j73/image/upload/v1676916954/ISM/New/17e97c649e81f98117e97c649e81f981ISM_3B22-05-22-25_ei75sr.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="2021"><i class="bi bi-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="https://res.cloudinary.com/dlclg1j73/image/upload/v1676916953/ISM/New/61fd3233d1a82b3c61fd3233d1a82b3cISM230422-100_zhttaq.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <div class="portfolio-links">
+                  <a href="https://res.cloudinary.com/dlclg1j73/image/upload/v1676916953/ISM/New/61fd3233d1a82b3c61fd3233d1a82b3cISM230422-100_zhttaq.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="2021"><i class="bi bi-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div> 
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="https://res.cloudinary.com/dlclg1j73/image/upload/v1676916953/ISM/New/101c5321e810eea8101c5321e810eea8ISM230422-97_vcblqj.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">               
+                <div class="portfolio-links">
+                  <a href="https://res.cloudinary.com/dlclg1j73/image/upload/v1676916953/ISM/New/101c5321e810eea8101c5321e810eea8ISM230422-97_vcblqj.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="2020"><i class="bi bi-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <div class="portfolio-wrap">
               <img src="https://res.cloudinary.com/dlclg1j73/image/upload/v1676479112/ISM/2021/60b67246723efb0160b67246723efb01DSC_1166_vpximg.png" class="img-fluid" alt="">
@@ -353,12 +499,13 @@
               </div>
             </div>
           </div>
+  
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <div class="portfolio-wrap">
               <img src="https://res.cloudinary.com/dlclg1j73/image/upload/v1676479112/ISM/2021/3bf9c9d7cf6376ae3bf9c9d7cf6376ae18082020_2837_29_ztzded.png" class="img-fluid" alt="">
-              <div class="portfolio-info">
+              <div class="portfolio-info">                
                 <div class="portfolio-links">
-                  <a href="https://res.cloudinary.com/dlclg1j73/image/upload/v1676479112/ISM/2021/3bf9c9d7cf6376ae3bf9c9d7cf6376ae18082020_2837_29_ztzded.png" data-gallery="portfolioGallery" class="portfokio-lightbox" title="2021"><i class="bi bi-plus"></i></a>
+                  <a href="https://res.cloudinary.com/dlclg1j73/image/upload/v1676479112/ISM/2021/3bf9c9d7cf6376ae3bf9c9d7cf6376ae18082020_2837_29_ztzded.png" data-gallery="portfolioGallery" class="portfokio-lightbox" title="2020"><i class="bi bi-plus"></i></a>
                 </div>
               </div>
             </div>
@@ -366,84 +513,63 @@
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <div class="portfolio-wrap">
               <img src="https://res.cloudinary.com/dlclg1j73/image/upload/v1676479111/ISM/2021/8701a133cffeb7cc8701a133cffeb7ccDSC_1179_hkhmv2.png" class="img-fluid" alt="">
-              <div class="portfolio-info">
+              <div class="portfolio-info">                
                 <div class="portfolio-links">
-                  <a href="https://res.cloudinary.com/dlclg1j73/image/upload/v1676479111/ISM/2021/8701a133cffeb7cc8701a133cffeb7ccDSC_1179_hkhmv2.png" data-gallery="portfolioGallery" class="portfokio-lightbox" title="2021"><i class="bi bi-plus"></i></a>
+                  <a href="https://res.cloudinary.com/dlclg1j73/image/upload/v1676479111/ISM/2021/8701a133cffeb7cc8701a133cffeb7ccDSC_1179_hkhmv2.png" data-gallery="portfolioGallery" class="portfokio-lightbox" title="2020"><i class="bi bi-plus"></i></a>
                 </div>
               </div>
             </div>
           </div>
+
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <div class="portfolio-wrap">
               <img src="https://res.cloudinary.com/dlclg1j73/image/upload/v1676479111/ISM/2021/be150857a7223dadbe150857a7223dadDSC_1202_tuiqah.png" class="img-fluid" alt="">
-              <div class="portfolio-info">
+              <div class="portfolio-info">                
                 <div class="portfolio-links">
-                  <a href="https://res.cloudinary.com/dlclg1j73/image/upload/v1676479111/ISM/2021/be150857a7223dadbe150857a7223dadDSC_1202_tuiqah.png" data-gallery="portfolioGallery" class="portfokio-lightbox" title="2021"><i class="bi bi-plus"></i></a>
+                  <a href="https://res.cloudinary.com/dlclg1j73/image/upload/v1676479111/ISM/2021/be150857a7223dadbe150857a7223dadDSC_1202_tuiqah.png" data-gallery="portfolioGallery" class="portfokio-lightbox" title="2020"><i class="bi bi-plus"></i></a>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="https://res.cloudinary.com/dlclg1j73/image/upload/v1676479111/ISM/2021/8da6018cdb2b9a3d8da6018cdb2b9a3dDSC_1181_phynyu.png" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <div class="portfolio-links">
-                  <a href="https://res.cloudinary.com/dlclg1j73/image/upload/v1676479111/ISM/2021/8da6018cdb2b9a3d8da6018cdb2b9a3dDSC_1181_phynyu.png" data-gallery="portfolioGallery" class="portfokio-lightbox" title="2021"><i class="bi bi-plus"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
+
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <div class="portfolio-wrap">
               <img src="https://res.cloudinary.com/dlclg1j73/image/upload/v1676479111/ISM/2021/06ec771d6a91691006ec771d6a916910DSC_1199_gxij5p.png" class="img-fluid" alt="">
-              <div class="portfolio-info">
+              <div class="portfolio-info">                
                 <div class="portfolio-links">
-                  <a href="https://res.cloudinary.com/dlclg1j73/image/upload/v1676479111/ISM/2021/06ec771d6a91691006ec771d6a916910DSC_1199_gxij5p.png" data-gallery="portfolioGallery" class="portfokio-lightbox" title="2021"><i class="bi bi-plus"></i></a>
+                  <a href="https://res.cloudinary.com/dlclg1j73/image/upload/v1676479111/ISM/2021/06ec771d6a91691006ec771d6a916910DSC_1199_gxij5p.png" data-gallery="portfolioGallery" class="portfokio-lightbox" title="2020"><i class="bi bi-plus"></i></a>
                 </div>
               </div>
             </div>
           </div>
+
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <div class="portfolio-wrap">
               <img src="https://res.cloudinary.com/dlclg1j73/image/upload/v1676479111/ISM/2021/c27d8800741f3474c27d8800741f3474DSC_1198_xvyitz.png" class="img-fluid" alt="">
-              <div class="portfolio-info">
+              <div class="portfolio-info">                
                 <div class="portfolio-links">
-                  <a href="https://res.cloudinary.com/dlclg1j73/image/upload/v1676479111/ISM/2021/c27d8800741f3474c27d8800741f3474DSC_1198_xvyitz.png" data-gallery="portfolioGallery" class="portfokio-lightbox" title="2021"><i class="bi bi-plus"></i></a>
+                  <a href="https://res.cloudinary.com/dlclg1j73/image/upload/v1676479111/ISM/2021/c27d8800741f3474c27d8800741f3474DSC_1198_xvyitz.png" data-gallery="portfolioGallery" class="portfokio-lightbox" title="2020"><i class="bi bi-plus"></i></a>
                 </div>
               </div>
             </div>
           </div>
+
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <div class="portfolio-wrap">
               <img src="https://res.cloudinary.com/dlclg1j73/image/upload/v1676479111/ISM/2021/37e3d6341e4bad0037e3d6341e4bad00DSC_1196_wsgi4c.png" class="img-fluid" alt="">
-              <div class="portfolio-info">
+              <div class="portfolio-info">                
                 <div class="portfolio-links">
-                  <a href="https://res.cloudinary.com/dlclg1j73/image/upload/v1676479111/ISM/2021/37e3d6341e4bad0037e3d6341e4bad00DSC_1196_wsgi4c.png" data-gallery="portfolioGallery" class="portfokio-lightbox" title="2021"><i class="bi bi-plus"></i></a>
-                </div>
-              </div>
-            </div>
-          </div> 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="https://res.cloudinary.com/dlclg1j73/image/upload/v1676479089/ISM/2020/1437bfd72011e2741437bfd72011e274DSC_1422_nzmzx5.png" class="img-fluid" alt="">
-              <div class="portfolio-info">               
-                <div class="portfolio-links">
-                  <a href="https://res.cloudinary.com/dlclg1j73/image/upload/v1676479089/ISM/2020/1437bfd72011e2741437bfd72011e274DSC_1422_nzmzx5.png" data-gallery="portfolioGallery" class="portfokio-lightbox" title="2020"><i class="bi bi-plus"></i></a>
+                  <a href="https://res.cloudinary.com/dlclg1j73/image/upload/v1676479111/ISM/2021/37e3d6341e4bad0037e3d6341e4bad00DSC_1196_wsgi4c.png" data-gallery="portfolioGallery" class="portfokio-lightbox" title="2020"><i class="bi bi-plus"></i></a>
                 </div>
               </div>
             </div>
           </div>
-  
-          <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="https://res.cloudinary.com/dlclg1j73/image/upload/v1676479094/ISM/2020/482b2554e8a9d554482b2554e8a9d554DSC_2568_h2k7g2.png" class="img-fluid" alt="">
-              <div class="portfolio-info">                
-                <div class="portfolio-links">
-                  <a href="https://res.cloudinary.com/dlclg1j73/image/upload/v1676479094/ISM/2020/482b2554e8a9d554482b2554e8a9d554DSC_2568_h2k7g2.png" data-gallery="portfolioGallery" class="portfokio-lightbox" title="2020"><i class="bi bi-plus"></i></a>
-                </div>
-              </div>
-            </div>
-          </div> -->
+
+
+
+
+
+
   
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
@@ -522,16 +648,26 @@
             </div>
           </div>
   
-          <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
-              <img src="https://res.cloudinary.com/dlclg1j73/image/upload/v1676479087/ISM/2020/4efd12b921d46b184efd12b921d46b18DSC_1727-Copy_kzfbbh.png" class="img-fluid" alt="">
+              <img src="https://res.cloudinary.com/dlclg1j73/image/upload/v1676479089/ISM/2020/1437bfd72011e2741437bfd72011e274DSC_1422_nzmzx5.png" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <div class="portfolio-links">
-                  <a href="https://res.cloudinary.com/dlclg1j73/image/upload/v1676479087/ISM/2020/4efd12b921d46b184efd12b921d46b18DSC_1727-Copy_kzfbbh.png" data-gallery="portfolioGallery" class="portfokio-lightbox" title="2020"><i class="bi bi-plus"></i></a>
+                  <a href="https://res.cloudinary.com/dlclg1j73/image/upload/v1676479089/ISM/2020/1437bfd72011e2741437bfd72011e274DSC_1422_nzmzx5.png" data-gallery="portfolioGallery" class="portfokio-lightbox" title="2020"><i class="bi bi-plus"></i></a>
                 </div>
               </div>
             </div>
-          </div> -->
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="https://res.cloudinary.com/dlclg1j73/image/upload/v1676920235/ISM/2020/f3fa51815e703395f3fa51815e703395DSC_1411-min_jixbsj.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <div class="portfolio-links">
+                  <a href="https://res.cloudinary.com/dlclg1j73/image/upload/v1676920235/ISM/2020/f3fa51815e703395f3fa51815e703395DSC_1411-min_jixbsj.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="2020"><i class="bi bi-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
         </div> 
       </div>
 
