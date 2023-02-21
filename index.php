@@ -29,7 +29,7 @@
   <header id="header" class="header fixed-top">
     <div class="container-fluid container-xl d-flex align-items-center">
 
-      <a href="index.html" class="logo d-flex align-items-center">
+      <a href="index.php" class="logo d-flex align-items-center">
         <img src="assets/img/logo1.png" alt="">
       </a>
 
@@ -98,7 +98,7 @@
                 categories to choose from and admission is open to persons in all parts of the world.                
               </p>
               <div class="text-center text-lg-start">
-                <a href="#" class="btn-read-more d-inline-flex align-items-center justify-content-center align-self-center">
+                <a target="_blank" href="registration.php" class="btn-read-more d-inline-flex align-items-center justify-content-center align-self-center">
                   <span>Register Now</span>
                   <i class="bi bi-arrow-right"></i>
                 </a>
