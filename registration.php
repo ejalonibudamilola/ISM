@@ -68,7 +68,7 @@
                   <label class="form-label" for="form3Example1q">Country of Residence</label><br/>
                   <!-- <input type="text" id="country" name="country" class="form-control" /> -->
                   <select id="country" name="country" class="select form-control">
-                    <option value="1">Select</option>                    
+                    <option value="">Select</option>                    
                   </select>
                   <span id="ccountry" class="error" font-weight-bold></span>
                 </div>
@@ -294,7 +294,7 @@
   $(function() {
     $("#country").change(function() {
       var val = $(this).val();
-      if (val === "1"){
+      if (val === ""){
         $("#showPhone").hide();
       }
       else{
@@ -309,8 +309,7 @@
       var visitoremail = $("#email").val(); 
       var code = $("#ccode").text();
       var digit = $("#phone").val();
-      var phone = code + digit;
-      console.log("Phone number is "+code + " " +phone);
+      var phone = code + " "+ digit;
       var city = $("#city").val();
       var country = $("#country").val();
       var gender = $("#gender").val();
