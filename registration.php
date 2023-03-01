@@ -322,8 +322,9 @@
       var ministryname = $("#ministryname").val();
       var position = $("#position").val();
       var salvation = $("#salvation").val();
-      var letter = /^[a-zA-Z]+$/;
+      var letter = /^[a-zA-Z\s]+$/;
       var email = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+      var number = /^[0-9\s]+$/;
       var valid = true;
       removeMessage();
       
@@ -345,7 +346,7 @@
               valid=false;
       }
 
-      if(digit == ""){
+      if(!number.test(digit)){
               event.preventDefault();
               document.getElementById("cphone").innerHTML="Input a valid Phone Number";
               valid=false;
