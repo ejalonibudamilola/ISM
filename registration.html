@@ -51,18 +51,10 @@
                 </div>
               </div>
 
-              <div class="row">
-                <div class="col-md-6 mb-4">
-                  <label class="form-label" for="form3Example1q">Email</label><br/>
-                  <input type="email" id="email" name="email" class="form-control" />
-                  <span id="cemail" class="error" font-weight-bold></span>
-                </div>
-
-                <div class="col-md-6 mb-4">
-                  <label class="form-label" for="form3Example1q">Phone Number</label><br/>
-                  <input type="text" id="phone" name="phone_number" class="form-control" />
-                  <span id="cphone" class="error" font-weight-bold></span>
-                </div>
+              <div class="form-outline mb-4"> 
+                <label class="form-label" for="form3Example1q">Email</label><br/>
+                <input type="email" id="email" name="email" class="form-control" />
+                <span id="cemail" class="error" font-weight-bold></span>                
               </div>
 
               <div class="row">
@@ -74,10 +66,24 @@
 
                 <div class="col-md-6 mb-4">
                   <label class="form-label" for="form3Example1q">Country of Residence</label><br/>
-                  <input type="text" id="country" name="country" class="form-control" />
+                  <!-- <input type="text" id="country" name="country" class="form-control" /> -->
+                  <select id="country" name="country" class="select form-control">
+                    <option value="1">Select</option>                    
+                  </select>
                   <span id="ccountry" class="error" font-weight-bold></span>
                 </div>
               </div>
+
+              <div class="form-outline mb-4" id="showPhone" style="display:none"> 
+                <label class="form-label" for="form3Example1q">Phone Number</label><br/>
+                <div class="input-group input-group-sm mb-3">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text" id="ccode">+234</span>
+                  </div>
+                  <input type="text" id="phone" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
+                </div>
+                <span id="cphone" class="error" font-weight-bold></span>
+              </div>  
 
               <div class="row">                
                 <div class="col-md-6 mb-4">
@@ -236,11 +242,34 @@
 <script src="assets/vendor/bootstrap/bootstrap.bundle.min.js"></script>
 
 <script>
+  var countries;
+  $(document).ready(function(){
+      $.ajax({
+        url:'https://restcountries.com/v2/all',
+        type:'get',
+        success: function(response){
+          countries = response
+          countries.forEach(item => {
+          $('#country').append(`<option value="${item.callingCodes}">${item.name}</option>`);
+        });    
+        },
+        error: function(){
+        }
+      });
+      
+  });
+
+
+  $(function() {
+    $("#country").change(function() {
+      var val = $(this).val();
+      $("#ccode").text("+"+val);
+    })
+  })
 
   $(function() {
     $("#minister").change(function() {
       var val = $(this).val();
-      console.log("Value is "+val);
       if (val === "Yes"){
         $("#showMinistry").show();
       }
@@ -253,7 +282,6 @@
   $(function() {
     $("#before").change(function() {
       var val = $(this).val();
-      console.log("Value is "+val);
       if (val === "Yes"){
         $("#showWhere").show();
       }
@@ -263,11 +291,26 @@
     })
   })
 
+  $(function() {
+    $("#country").change(function() {
+      var val = $(this).val();
+      if (val === "1"){
+        $("#showPhone").hide();
+      }
+      else{
+        $("#showPhone").show();
+      }
+    })
+  })
+
   function ValidateForm(){
       var lastname = $("#lastname").val();
       var firstname = $("#firstname").val();  
       var visitoremail = $("#email").val(); 
-      var phone = $("#phone").val();
+      var code = $("#ccode").text();
+      var digit = $("#phone").val();
+      var phone = code + digit;
+      console.log("Phone number is "+code + " " +phone);
       var city = $("#city").val();
       var country = $("#country").val();
       var gender = $("#gender").val();
@@ -303,7 +346,7 @@
               valid=false;
       }
 
-      if(phone == ""){
+      if(digit == ""){
               event.preventDefault();
               document.getElementById("cphone").innerHTML="Input a valid Phone Number";
               valid=false;
@@ -420,7 +463,7 @@
     window.location.href = "https://wa.me/2349030959735?text=My%20name%20is%20_____________,%20I%20just%20made%20payment%20for%20ISM.";
   });
 
-  </script>
+</script>
 
 </body>
 
