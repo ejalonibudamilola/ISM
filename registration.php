@@ -84,6 +84,8 @@
                 </div>
                 <span id="cphone" class="error" font-weight-bold></span>
               </div>  
+              <input type="text" id="phoneNumber" name="phone_number" class="form-control" style="display:none" />
+
 
               <div class="row">                
                 <div class="col-md-6 mb-4">
@@ -328,6 +330,10 @@
       var valid = true;
       removeMessage();
       
+
+      $("#phoneNumber").val(phone);
+
+
       if(!letter.test(lastname)){
               event.preventDefault();
               document.getElementById("clastname").innerHTML="Input a valid Lastname";
