@@ -312,7 +312,7 @@
       var code = $("#ccode").text();
       var digit = $("#phone").val();
       var phone = "(" + code + ")" + " "+ digit;
-      phone = phone.substring(1);
+      // phone = phone.substring(1);
       var city = $("#city").val();
       var country = $("#country").val();
       var gender = $("#gender").val();
