@@ -332,7 +332,7 @@
       removeMessage();
       
 
-      $("#phoneNumber").val(phone);
+      $("#phoneNumber").val((+)phone);
 
 
       if(!letter.test(lastname)){
