@@ -216,7 +216,7 @@
               <img src="https://res.cloudinary.com/dlclg1j73/image/upload/v1677762578/ISM/ISMKB/IMG_007_kkdwwg.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <div class="portfolio-links">
-                  <a href="https://res.cloudinary.com/dlclg1j73/image/upload/v1677751097/ISM/6_tkltaw.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox"><i class="bi bi-plus"></i></a>
+                  <a href="https://res.cloudinary.com/dlclg1j73/image/upload/v1677751102/ISM/8._hpxzkh.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox"><i class="bi bi-plus"></i></a>
                 </div>
               </div>
             </div>
@@ -226,7 +226,7 @@
               <img src="https://res.cloudinary.com/dlclg1j73/image/upload/v1677762578/ISM/ISMKB/IMG_008_rkbg5l.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <div class="portfolio-links">
-                  <a href="https://res.cloudinary.com/dlclg1j73/image/upload/v1677751098/ISM/3_i2itbc.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox"><i class="bi bi-plus"></i></a>
+                  <a href="https://res.cloudinary.com/dlclg1j73/image/upload/v1677751100/ISM/5_cg1yxh.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox"><i class="bi bi-plus"></i></a>
                 </div>
               </div>
             </div>
@@ -236,7 +236,7 @@
               <img src="https://res.cloudinary.com/dlclg1j73/image/upload/v1677762577/ISM/ISMKB/IMG_001_kafijw.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <div class="portfolio-links">
-                  <a href="https://res.cloudinary.com/dlclg1j73/image/upload/v1677751102/ISM/8._hpxzkh.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox"><i class="bi bi-plus"></i></a>
+                  <a href="https://res.cloudinary.com/dlclg1j73/image/upload/v1677751099/ISM/2_kgcuv8.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox"><i class="bi bi-plus"></i></a>
                 </div>
               </div>
             </div>
@@ -244,26 +244,6 @@
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
               <img src="https://res.cloudinary.com/dlclg1j73/image/upload/v1677762577/ISM/ISMKB/IMG_005_y0itcr.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <div class="portfolio-links">
-                  <a href="https://res.cloudinary.com/dlclg1j73/image/upload/v1677751101/ISM/7_ttmybz.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox"><i class="bi bi-plus"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="https://res.cloudinary.com/dlclg1j73/image/upload/v1677762577/ISM/ISMKB/IMG_002_kdjkyb.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <div class="portfolio-links">
-                  <a href="https://res.cloudinary.com/dlclg1j73/image/upload/v1677751100/ISM/5_cg1yxh.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox"><i class="bi bi-plus"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>         
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="https://res.cloudinary.com/dlclg1j73/image/upload/v1677762577/ISM/ISMKB/IMG_004_fxkssn.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <div class="portfolio-links">
                   <a href="https://res.cloudinary.com/dlclg1j73/image/upload/v1677751102/ISM/1_tg7s8w.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox"><i class="bi bi-plus"></i></a>
@@ -273,17 +253,17 @@
           </div>
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
-              <img src="https://res.cloudinary.com/dlclg1j73/image/upload/v1677762577/ISM/ISMKB/IMG_003_clxxgf.jpg" class="img-fluid" alt="">
+              <img src="https://res.cloudinary.com/dlclg1j73/image/upload/v1677762577/ISM/ISMKB/IMG_002_kdjkyb.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <div class="portfolio-links">
-                  <a href="https://res.cloudinary.com/dlclg1j73/image/upload/v1677751100/ISM/5_cg1yxh.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox"><i class="bi bi-plus"></i></a>
+                  <a href="https://res.cloudinary.com/dlclg1j73/image/upload/v1677751101/ISM/7_ttmybz.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox"><i class="bi bi-plus"></i></a>
                 </div>
               </div>
             </div>
-          </div>
+          </div>         
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
-              <img src="https://res.cloudinary.com/dlclg1j73/image/upload/v1677762577/ISM/ISMKB/IMG_006_p5buap.jpg" class="img-fluid" alt="">
+              <img src="https://res.cloudinary.com/dlclg1j73/image/upload/v1677762577/ISM/ISMKB/IMG_004_fxkssn.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <div class="portfolio-links">
                   <a href="https://res.cloudinary.com/dlclg1j73/image/upload/v1677751099/ISM/4_iidngd.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox"><i class="bi bi-plus"></i></a>
@@ -293,10 +273,30 @@
           </div>
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
+              <img src="https://res.cloudinary.com/dlclg1j73/image/upload/v1677762577/ISM/ISMKB/IMG_003_clxxgf.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <div class="portfolio-links">
+                  <a href="https://res.cloudinary.com/dlclg1j73/image/upload/v1677751097/ISM/6_tkltaw.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox"><i class="bi bi-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="https://res.cloudinary.com/dlclg1j73/image/upload/v1677762577/ISM/ISMKB/IMG_006_p5buap.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <div class="portfolio-links">
+                  <a href="https://res.cloudinary.com/dlclg1j73/image/upload/v1677751098/ISM/3_i2itbc.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox"><i class="bi bi-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
               <img src="https://res.cloudinary.com/dlclg1j73/image/upload/v1677762577/ISM/ISMKB/IMG_005_y0itcr.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <div class="portfolio-links">
-                  <a href="https://res.cloudinary.com/dlclg1j73/image/upload/v1677751101/ISM/7_ttmybz.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox"><i class="bi bi-plus"></i></a>
+                  <a href="https://res.cloudinary.com/dlclg1j73/image/upload/v1677751102/ISM/1_tg7s8w.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox"><i class="bi bi-plus"></i></a>
                 </div>
               </div>
             </div>
