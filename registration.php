@@ -67,12 +67,14 @@
                 <div class="col-md-6 mb-4">
                   <label class="form-label" for="form3Example1q">Country of Residence</label><br/>
                   <!-- <input type="text" id="country" name="country" class="form-control" /> -->
-                  <select id="country" name="country" class="select form-control">
+                  <select id="country" class="select form-control">
                     <option value="">Select</option>                    
                   </select>
                   <span id="ccountry" class="error" font-weight-bold></span>
                 </div>
               </div>
+              <input type="text" id="countryName" name="country" class="form-control" style="display:none" />
+
 
               <div class="form-outline mb-4" id="showPhone" style="display:none"> 
                 <label class="form-label" for="form3Example1q">Phone Number</label><br/>
@@ -300,7 +302,7 @@
         $("#showPhone").hide();
       }
       else{
-        $("#showPhone").show();
+        $("#showPhone").show();        
       }
     })
   })
@@ -312,9 +314,8 @@
       var code = $("#ccode").text();
       var digit = $("#phone").val();
       var phone = "(" + code + ")" + " "+ digit;
-      // phone = phone.substring(1);
       var city = $("#city").val();
-      var country = $("#country").val();
+      var country = $("#country option:selected").text();
       var gender = $("#gender").val();
       var education = $("#education").val();
       var baptized = $("#baptized").val();
@@ -331,9 +332,8 @@
       var valid = true;
       removeMessage();
       
-
+      $("#countryName").val(country);
       $("#phoneNumber").val(phone);
-
 
       if(!letter.test(lastname)){
               event.preventDefault();
