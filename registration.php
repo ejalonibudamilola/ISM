@@ -311,7 +311,8 @@
       var visitoremail = $("#email").val(); 
       var code = $("#ccode").text();
       var digit = $("#phone").val();
-      var phone = String(code + " "+ digit);
+      var phone = code + " "+ digit;
+      phone = phone.substring(1);
       var city = $("#city").val();
       var country = $("#country").val();
       var gender = $("#gender").val();
