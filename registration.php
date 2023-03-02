@@ -59,19 +59,17 @@
 
               <div class="row">
                 <div class="col-md-6 mb-4">
-                  <label class="form-label" for="form3Example1q">City of Residence</label><br/>
-                  <input type="text" id="city" name="city" class="form-control" />
-                  <span id="ccity" class="error" font-weight-bold></span>
-                </div>
-
-                <div class="col-md-6 mb-4">
                   <label class="form-label" for="form3Example1q">Country of Residence</label><br/>
-                  <!-- <input type="text" id="country" name="country" class="form-control" /> -->
                   <select id="country" class="select form-control">
                     <option value="">Select</option>                    
                   </select>
                   <span id="ccountry" class="error" font-weight-bold></span>
                 </div>
+                <div class="col-md-6 mb-4">
+                  <label class="form-label" for="form3Example1q">City of Residence</label><br/>
+                  <input type="text" id="city" name="city" class="form-control" />
+                  <span id="ccity" class="error" font-weight-bold></span>
+                </div>                
               </div>
               <input type="text" id="countryName" name="country" class="form-control" style="display:none" />
 
