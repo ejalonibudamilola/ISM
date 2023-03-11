@@ -179,10 +179,12 @@
               <div class="note">
                 <p>
                   Pay the tuition fee of NGN50,000 to the following account number . BANK NAME - UBA,
-                  ACCOUNT NAME-Femi Lazarus Ministries, ACCOUNT NUMBER- 2215005289. Kindly note that
-                  an evidence of payment will be requested on the successful submission of this
+                  ACCOUNT NAME-Femi Lazarus Ministries, ACCOUNT NUMBER- 2215005289.<br/>
+                  DOMICILIARY ACCOUNT: BANK NAME - UBA, ACCOUNT NAME - SPHERE OF LIGHT CHURCH, 
+                  ACCOUNT NUMBER - 3003979764, SWIFT CODE - UNAFNGLA. <br/>
+                  Kindly note that an evidence of payment will be requested on the successful submission of this
                   registration form. You can also send your evidence of payment to 09030959735 via WhatsApp               
-                </p>                
+                </p>               
               </div>
 
               <div class="container">
@@ -216,6 +218,10 @@
         <p>2215005289<br/>
           UBA<br/>
           Femi Lazarus  Ministries
+        </p>
+        <p>
+          DOMICILIARY ACCOUNT: BANK NAME - UBA, ACCOUNT NAME - SPHERE OF LIGHT CHURCH, 
+          ACCOUNT NUMBER - 3003979764, SWIFT CODE - UNAFNGLA.
         </p>
       </div>
       <div class="modal-footer">
