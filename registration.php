@@ -178,13 +178,15 @@
 
               <div class="note">
                 <p>
-                  Pay the tuition fee of NGN50,000 to the following account number . BANK NAME - UBA,
-                  ACCOUNT NAME-Femi Lazarus Ministries, ACCOUNT NUMBER- 2215005289.<br/>
+                  Pay the tuition fee of NGN50,000 to the following account details.<br/>
+                  NAIRA ACCOUNT:  BANK NAME - UBA, ACCOUNT NAME-Femi Lazarus Ministries, 
+                  ACCOUNT NUMBER- 2215005289<br/><br/>
+                  Or Pay a tuition fee of $67 to the following account details.<br/>
                   DOMICILIARY ACCOUNT: BANK NAME - UBA, ACCOUNT NAME - SPHERE OF LIGHT CHURCH, 
-                  ACCOUNT NUMBER - 3003979764, SWIFT CODE - UNAFNGLA. <br/>
+                  ACCOUNT NUMBER - 3003979764, SWIFT CODE - UNAFNGLA. <br/><br/>
                   Kindly note that an evidence of payment will be requested on the successful submission of this
                   registration form. You can also send your evidence of payment to 09030959735 via WhatsApp               
-                </p>               
+                </p>              
               </div>
 
               <div class="container">
@@ -214,15 +216,18 @@
       <div class="modal-body">
         <p>Your Data has been successfully saved</p>
         <hr/>
-        <p>Kindly make a Payment of NGN50,000.00 to the account number below and click on the button to send your proof of payment.</p>
+        <p>Kindly make a Payment of NGN50,000.00 to the naira account details below.</p>
         <p>2215005289<br/>
           UBA<br/>
           Femi Lazarus  Ministries
         </p>
-        <p>
-          DOMICILIARY ACCOUNT: BANK NAME - UBA, ACCOUNT NAME - SPHERE OF LIGHT CHURCH, 
-          ACCOUNT NUMBER - 3003979764, SWIFT CODE - UNAFNGLA.
-        </p>
+        <p>Or $67 to the domiciliary account details below</p>
+        <p>3003979764<br/>
+          UBA<br/>
+          Sphere of Light Church<br/>
+          Swift Code: UNAFNGLA.
+        </p>        
+        <p>Click on the button below to send your proof of payment.</p>
       </div>
       <div class="modal-footer">
         <button id="successBtn" style="background-color: #c28e27; border-color: #c28e27" type="button" class="btn btn-primary" data-bs-dismiss="modal">Ok</button>
